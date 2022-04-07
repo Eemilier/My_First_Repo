@@ -10,6 +10,7 @@ nav{
     top: 0%;
     background-color: rgb(216, 185, 195,0.7);
     width: 100%;
+
     padding: 20px ;
     display: flex;
     align-items: center;
@@ -66,14 +67,25 @@ width: 100%;
 height: 450px;
 font-size: 50px;
 font-weight: 100;
-margin: 50px;
+margin: 80px;
+
 }
+
+.logo{
+height: 25px;
+
+}
+
+
+
 
 .img{
 justify-content: center;
 position: relative;
 display: flex;
-
+height: 400px;
+margin-right: 200px;
+padding-top: 100px;
 }
 
 
@@ -230,6 +242,7 @@ color: white;
 .footerleft{
     float: left;
     overflow: hidden;
+    margin-top: 0;
 }
 .footerright a{
     display: flex;
@@ -244,7 +257,11 @@ color: white;
     transition: .5s;
 }
 
+.span{
+margin-left: 20px;
 
+
+}
 .footerright a:hover{
     color: white;
     border-top: 1px solid white;
