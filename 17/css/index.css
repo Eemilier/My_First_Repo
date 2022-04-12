@@ -17,7 +17,9 @@ nav{
     justify-content: space-between;
 }
 
-
+.logo{
+  height: 5px;
+}
 
 ul{
 list-style: none;
@@ -71,10 +73,7 @@ margin: 80px;
 
 }
 
-.logo{
-height: 25px;
 
-}
 
 
 
@@ -234,34 +233,32 @@ font-size: large;
     padding: 50px;  height: 200px;
  
 }
-  
-.logo{
-color: white;
-}
 
 .footerleft{
-    float: left;
-    overflow: hidden;
+  display: flex;
     margin-top: 0;
 }
+
+.footerright{
+display: flex;
+margin-left: 400px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+
 .footerright a{
     display: flex;
-    justify-content: center;
-    align-items: center;
     color: #d8b9c3;
-    margin-top: 40px;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0 15px;
+    margin: 0 50px;
     transition: .5s;
+    top: 0%;
 }
 
-.span{
-margin-left: 20px;
-
-
-}
 .footerright a:hover{
     color: white;
     border-top: 1px solid white;
